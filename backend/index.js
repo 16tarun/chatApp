@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://chatapp-5myz.onrender.com",
+    origin: "https://chat-app-oxtx.vercel.app",
     credentials: true,
   })
 );
